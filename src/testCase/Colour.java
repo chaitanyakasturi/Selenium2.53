@@ -41,7 +41,7 @@ public class Colour
 	@Test
 	public void lanch() throws InterruptedException{
 		driver.get("https://www.ksrtc.in/oprs-web/");
-		//driver.findElement(By.id("searchBtn")).click();
+		driver.findElement(By.id("searchBtn")).click();
 		Login("Sample");
 	}
 		
